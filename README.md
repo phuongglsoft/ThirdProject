@@ -21,7 +21,7 @@ BackEnd server is connected to port 8081 on localhost.
 ```bash
 
 # Go into the repository
-$ cd ThirdProject
+$ cd ThirdProject/ThirdProject-BackEnd
 
 # Run command to start both postgresql and backend server
 $ docker-compose up -d
