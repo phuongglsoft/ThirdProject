@@ -14,12 +14,16 @@ $ npm install
 $ npm run dev
 ```
 BACKEND:
+Use docker-compose to start both PostgresQL and BackEnd server.
+PostgresQL is connected to port 5433 on localhost.
+BackEnd server is connected to port 8081 on localhost.
+
 ```bash
 
 # Go into the repository
 $ cd ThirdProject
 
-# Install dependencies
+# Run command to start both postgresql and backend server
 $ docker-compose up -d
 
 ```
