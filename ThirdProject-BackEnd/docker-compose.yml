@@ -3,7 +3,7 @@ networks:
   thirdproject:
 services:
   thirdproject-backend:
-    image: ${DOCKER_REGISTRY-}thirdprojectbackend
+    image: phuongglsoft/thirdprojectbackend
     build:
         context: .
         dockerfile: ThirdProject-BackEnd\Dockerfile
