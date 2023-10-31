@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  padding: 14px 10px;
+  position: relative;
+  border-radius: 4px;
+  border: 1px solid lightgray;
+  font-size: 0.8rem;
+}
+
+label {
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 1.4375rem;
+  position: absolute;
+  top: -25%;
+  background-color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.text {
+  font-size: 1.1rem;
+}
